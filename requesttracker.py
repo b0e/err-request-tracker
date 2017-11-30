@@ -1,7 +1,7 @@
 import re
 import rt
 from itertools import chain
-from errbot.utils import ValidationException
+from errbot import ValidationException
 from errbot import BotPlugin, botcmd, re_botcmd
 
 CONFIG_TEMPLATE = {'USER': '',
